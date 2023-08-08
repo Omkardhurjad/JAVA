@@ -20,7 +20,7 @@ public class EmployeeSalaryCalculator {
             if (basicPayment >= 4500 && basicPayment <= 6500 && age >= 18) {
                 calculateAndPrintSalary(basicPayment, age);
             } else {
-                System.out.println("Invalid input. Please make sure basic payment is between 4500 and 6500 and age is at least 18.");
+                System.out.println("Invalid input.");
             }
         }
 
